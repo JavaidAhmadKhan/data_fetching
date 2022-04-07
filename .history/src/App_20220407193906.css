@@ -1,0 +1,11 @@
+* {
+  margin: 10px;
+}
+table,
+th,
+td {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightblue;
+}

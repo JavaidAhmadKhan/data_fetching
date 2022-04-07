@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+}
+table,
+th,
+td {
+  margin:20px;
+  text-align:center;I
+  border: 1px solid lightblue;
+}

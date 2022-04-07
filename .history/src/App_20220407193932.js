@@ -48,6 +48,7 @@ export default function App() {
   ]);
   return (
     <div className="App">
+      <div>
       {data.map((data) => (
         <table key={data.id} style={{ width: "100%" }}>
           <thead>
@@ -56,11 +57,12 @@ export default function App() {
               <td>{data.last_name}</td>
               <td>{data.email}</td>
               <td>
-                <img src={data.avatar} alt={`${data.avatar}`} />
+                <img src={data.avatar} alt={`name of photo${data.avatar}`} />
               </td>
             </tr>
           </thead>
         </table>
+        </div>
       ))}
     </div>
   );

@@ -50,16 +50,11 @@ export default function App() {
     <div className="App">
       {data.map((data) => (
         <table key={data.id} style={{ width: "100%" }}>
-          <thead>
-            <tr>
-              <td>{data.first_name}</td>
-              <td>{data.last_name}</td>
-              <td>{data.email}</td>
-              <td>
-                <img src={data.avatar} alt={`${data.avatar}`} />
-              </td>
-            </tr>
-          </thead>
+          <tr>
+          <td>{data.first_name}</td>
+          <td>{data.last_name}</td>
+          <td>{data.email}</td>
+          </tr>
         </table>
       ))}
     </div>

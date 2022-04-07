@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+}
+table,
+th,
+td {
+  margin:20px;
+  border: 1px solid lightblue;
+}

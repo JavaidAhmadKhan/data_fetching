@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 
 export default function App() {
@@ -47,21 +46,27 @@ export default function App() {
     },
   ]);
   return (
-    <div className="App">
-      {data.map((data) => (
-        <table key={data.id} style={{ width: "100%" }}>
-          <thead>
-            <tr>
-              <td>{data.first_name}</td>
-              <td>{data.last_name}</td>
-              <td>{data.email}</td>
-              <td>
-                <img src={data.avatar} alt={`${data.avatar}`} />
-              </td>
-            </tr>
-          </thead>
-        </table>
+    <div className='app'>
+      {data.map((idx) => (
+        <div key={idx.id}></div>
       ))}
     </div>
   );
 }
+
+/* 
+
+
+<table style={{ width: "100%" }}>
+            <thead>
+              <tr>
+                <td>{first_name}</td>
+                <td>{last_name}</td>
+                <td>{email}</td>
+                <td>
+                  <img src={avatar} alt={`first name ${avatar}`} />
+                </td>
+              </tr>
+            </thead>
+          </table>
+*/

@@ -55,9 +55,6 @@ export default function App() {
               <td>{data.first_name}</td>
               <td>{data.last_name}</td>
               <td>{data.email}</td>
-              <td>
-                <img src={data.avatar} alt={`${data.avatar}`} />
-              </td>
             </tr>
           </thead>
         </table>

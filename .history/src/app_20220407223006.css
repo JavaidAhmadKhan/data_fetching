@@ -1,0 +1,14 @@
+* {
+  margin: 10px;
+}
+
+img {
+  object-fit: contain;
+  width: 10vh;
+  border-radius: 50%;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: repeat(4 1fr);
+}

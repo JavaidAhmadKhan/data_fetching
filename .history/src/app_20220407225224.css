@@ -1,0 +1,13 @@
+* {
+  margin: 10px;
+}
+
+.container{
+  display: flex;
+}
+
+img {
+  object-fit: contain;
+  border-radius: 50%;
+  width: 30%;
+}

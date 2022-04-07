@@ -15,7 +15,7 @@ export default function App() {
     <div>
       {users.map((user) => (
         <table key={user.id}>
-          <thead>
+          <tbody>
             <div className="container">
               <td>{user.first_name}</td>
               <td>{user.last_name}</td>
@@ -24,7 +24,7 @@ export default function App() {
                 <img src={user.avatar} alt={`${user.avatar}`} />
               </td>
             </div>
-          </thead>
+          </tbody>
         </table>
       ))}
     </div>

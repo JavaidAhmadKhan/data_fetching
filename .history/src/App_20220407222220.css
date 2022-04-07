@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+}
+
+img {
+  object-fit: contain;
+  width: 10vh;
+  border-radius: 50%;
+}

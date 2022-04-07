@@ -1,0 +1,15 @@
+.header-container {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  
+}
+
+table {
+  width: 100%;
+}
+img {
+  object-fit: contain;
+  border-radius: 50%;
+}

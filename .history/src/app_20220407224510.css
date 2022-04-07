@@ -1,0 +1,24 @@
+* {
+  margin: 10px;
+}
+
+.header-container {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+img {
+  object-fit: contain;
+  width: 10vh;
+  border-radius: 50%;
+}
+
+table,
+td {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}

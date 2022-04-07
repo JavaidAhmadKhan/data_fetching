@@ -1,0 +1,10 @@
+* {
+  margin: 10px;
+}
+
+
+img {
+  object-fit: contain;
+  width: 10vh;
+  border-radius: 50%;
+}

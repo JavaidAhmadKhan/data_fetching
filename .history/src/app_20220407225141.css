@@ -1,0 +1,11 @@
+* {
+  margin: 10px;
+}
+
+table {
+}
+img {
+  object-fit: contain;
+  border-radius: 50%;
+  width: 30%;
+}

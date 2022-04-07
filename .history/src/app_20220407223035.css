@@ -1,0 +1,15 @@
+* {
+  margin: 10px;
+}
+
+img {
+  object-fit: contain;
+  width: 10vh;
+  border-radius: 50%;
+}
+
+.header-container {
+  display: grid;
+  grid-gap: 2;
+  grid-template-columns: repeat(4, 1fr);
+}

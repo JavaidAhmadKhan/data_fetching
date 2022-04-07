@@ -1,0 +1,24 @@
+* {
+  margin: 5px;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  align-items: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 50%;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}

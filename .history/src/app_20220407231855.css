@@ -1,0 +1,21 @@
+.app {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  align-items: center;
+}
+.container {
+  
+}
+
+img {
+  border-radius: 50%;
+  width: 50%;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}

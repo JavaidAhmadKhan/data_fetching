@@ -1,0 +1,15 @@
+* {
+  margin: 10px;
+}
+
+img {
+  object-fit: contain;
+  width: 10vh;
+  border-radius: 50%;
+}
+
+.header-container {
+  display: grid;
+  flex-direction: row;
+  grid-auto-columns: repeat(auto-fit, minmax(100px, 1fr));
+}

@@ -1,0 +1,11 @@
+.header-container {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+img {
+  object-fit: contain;
+  border-radius: 50%;
+}

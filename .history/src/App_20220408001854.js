@@ -15,16 +15,16 @@ export default function App() {
     <div>
       {users.map((user) => (
         <table key={user.id}>
-          <thead>
+          <tbody>
             <div className="container">
-              <td>{user.first_name}</td>
-              <td>{user.last_name}</td>
-              <td>{user.email}</td>
+              <p>{user.first_name}</p>
+              <p>{user.last_name}</p>
+              <p>{user.email}</p>
               <td>
                 <img src={user.avatar} alt={`${user.avatar}`} />
               </td>
             </div>
-          </thead>
+          </tbody>
         </table>
       ))}
     </div>

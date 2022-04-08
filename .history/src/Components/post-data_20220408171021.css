@@ -10,10 +10,11 @@ form {
 
 @media only screen and (max-width: 600px) {
   form {
+    flex-wrap: center;
     text-align: center;
+    justify-content: center;
     align-items: center;
-    align-self: center;
-    width: 80%;
+    width: 60%;
   }
 }
 

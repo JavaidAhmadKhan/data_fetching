@@ -8,15 +8,6 @@ form {
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 600px) {
-  form {
-    text-align: center;
-    align-items: center;
-    align-self: center;
-    width: 80%;
-  }
-}
-
 input {
   padding: 10px;
   text-decoration: none;
@@ -29,9 +20,6 @@ input {
 @media only screen and (max-width: 600px) {
   input {
     padding: 5px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
   }
 }
 

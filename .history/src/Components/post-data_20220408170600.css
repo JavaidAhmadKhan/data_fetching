@@ -11,9 +11,8 @@ form {
 @media only screen and (max-width: 600px) {
   form {
     text-align: center;
+    justify-content: center;
     align-items: center;
-    align-self: center;
-    width: 80%;
   }
 }
 
@@ -36,6 +35,7 @@ input {
 }
 
 button {
+  
   background-color: #5e7ba8;
   color: white;
   padding: 10px;
@@ -45,4 +45,10 @@ button {
   border-radius: 20px;
   border: none;
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  button {
+    justify-content: flex-end;
+  }
 }

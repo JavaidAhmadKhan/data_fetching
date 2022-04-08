@@ -1,6 +1,4 @@
 import { Fragment, useEffect, useState } from "react";
-import PostData from "./Components/PostData";
-
 import "./app.css";
 
 export default function App() {
@@ -15,7 +13,6 @@ export default function App() {
   }, []);
   return (
     <Fragment>
-      <PostData />
       {users.map((user) => (
         <table key={user.id}>
           <thead>
@@ -27,6 +24,7 @@ export default function App() {
                 <img src={user.avatar} alt={`${user.avatar}`} />
               </td>
             </div>
+            <button>create</button>
           </thead>
         </table>
       ))}

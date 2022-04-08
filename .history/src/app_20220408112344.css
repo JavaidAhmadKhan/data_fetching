@@ -2,7 +2,11 @@
   margin: 3px;
 }
 
-
+button {
+  display: flex;
+  background-color: lightblue;
+  color:white;
+}
 .container {
   display: flex;
   flex-direction: row;

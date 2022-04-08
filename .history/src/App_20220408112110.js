@@ -1,6 +1,4 @@
 import { Fragment, useEffect, useState } from "react";
-import PostData from "./Components/PostData";
-
 import "./app.css";
 
 export default function App() {
@@ -15,9 +13,10 @@ export default function App() {
   }, []);
   return (
     <Fragment>
-      <PostData />
+      <button>create</button>
       {users.map((user) => (
         <table key={user.id}>
+          
           <thead>
             <div className="container">
               <td>{user.first_name}</td>

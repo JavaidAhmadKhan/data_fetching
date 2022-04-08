@@ -15,7 +15,7 @@ export default function App() {
   }, []);
   return (
     <Fragment>
-      <PostData />
+      <button type="button">Add User</button>
       {users.map((user) => (
         <table key={user.id}>
           <thead>

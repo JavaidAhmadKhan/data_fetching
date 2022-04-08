@@ -16,6 +16,7 @@ export default function App() {
   return (
     <Fragment>
       <PostData />
+      
       {users.map((user) => (
         <table key={user.id}>
           <thead>

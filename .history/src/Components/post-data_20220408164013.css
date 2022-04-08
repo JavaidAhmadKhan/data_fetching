@@ -1,0 +1,18 @@
+/* button {
+  display: flex;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
+} */
+
+form {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  border-radius: 5px;
+}

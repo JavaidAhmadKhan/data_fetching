@@ -4,11 +4,10 @@ import Axios from "axios";
 import "./post-data.css";
 
 function PostData() {
-  const url = "http://dummy.restapiexample.com/api/v1/create";
+  const url = "http://dummy.restapiexample.com/api/v1/employees";
   const [data, setData] = useState({
     name: "",
-    salary: "",
-    age: "",
+    job: "",
   });
 
   function submit(e) {
@@ -29,8 +28,7 @@ function PostData() {
   }
 
   return (
-    <div className="container">
-      <label>Add New User</label>
+    <div>
       <form onSubmit={(e) => submit(e)}>
         <input
           onChange={(e) => handlerSubmit(e)}
@@ -41,17 +39,10 @@ function PostData() {
         />
         <input
           onChange={(e) => handlerSubmit(e)}
-          id="salary"
-          value={data.salary}
-          placeholder="salary"
-          type="number"
-        />
-        <input
-          onChange={(e) => handlerSubmit(e)}
-          id="age"
-          value={data.age}
-          placeholder="age"
-          type="number"
+          id="job"
+          value={data.job}
+          placeholder="job"
+          type="text"
         />
         <button>Submit</button>
       </form>

@@ -1,0 +1,18 @@
+* {
+  margin: 5px;
+}
+
+tbody {
+  display: flex;
+}
+
+tr {
+  display: block;
+  float: left;
+}
+th,
+td {
+  display: block;
+  text-align: left;
+  padding: 6px;
+}

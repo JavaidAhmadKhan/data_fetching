@@ -1,0 +1,11 @@
+* {
+  margin: 5px;
+}
+
+container
+
+table,
+th,
+td {
+  border: 1px solid black;
+}

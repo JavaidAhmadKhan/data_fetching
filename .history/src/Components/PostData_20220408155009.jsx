@@ -29,8 +29,7 @@ function PostData() {
   }
 
   return (
-    <div className="container">
-      <label>Add New User</label>
+    <div>
       <form onSubmit={(e) => submit(e)}>
         <input
           onChange={(e) => handlerSubmit(e)}

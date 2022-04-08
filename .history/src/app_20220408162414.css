@@ -1,0 +1,16 @@
+* {
+  margin: 5px;
+}
+
+.container {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  font-size:20px;
+}
+
+table,
+th,
+td {
+  /* border: 1px solid black; */
+}

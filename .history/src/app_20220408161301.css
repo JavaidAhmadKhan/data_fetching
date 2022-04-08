@@ -1,0 +1,13 @@
+tr {
+  display: flex;
+  flex-direction: row;
+}
+th,
+td {
+  display: flex;
+  flex-direction: row;
+  padding:20px;
+  text-align: center;
+
+  border: 1px solid #ccc;
+}

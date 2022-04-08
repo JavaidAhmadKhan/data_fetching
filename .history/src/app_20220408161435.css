@@ -1,0 +1,15 @@
+* {
+  max-width: 5px;
+}
+
+tr {
+  display: block;
+  float: left;
+}
+th,
+td {
+  display: block;
+  text-align: left;
+  padding: 6px;
+  border: 1px solid #ccc;
+}

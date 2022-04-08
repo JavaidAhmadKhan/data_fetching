@@ -16,24 +16,22 @@ export default function App() {
     userData();
   }, []);
   return (
-    <div className="container">
+    <Fragment>
       <PostData />
-      <table>
-        <tbody>
-          <tr className="">
-            <th>Employee Name</th>
-            <th>Employee Salary</th>
-            <th> Employee Age</th>
+      <tbody>
+        <tr>
+          <th>Employee Name</th>
+          <th>Employee Salary</th>
+          <th> Employee Age</th>
+        </tr>
+        {users.people.map((user, i) => (
+          <tr key={i}>
+            <td>{user.name}</td>
+            <td>{user.last_name}</td>
+            <td>{user.age}</td>
           </tr>
-          {users.map((user, id) => (
-            <tr key={id}>
-              <td>{user.employee_name}</td>
-              <td>{user.employee_salary}</td>
-              <td>{user.employee_age}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
+        ))}
+      </tbody>
+    </Fragment>
   );
 }

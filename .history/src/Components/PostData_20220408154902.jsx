@@ -4,7 +4,7 @@ import Axios from "axios";
 import "./post-data.css";
 
 function PostData() {
-  const url = "http://dummy.restapiexample.com/api/v1/create";
+  const url = "http://dummy.restapiexample.com/api/v1/employees";
   const [data, setData] = useState({
     name: "",
     salary: "",
@@ -29,8 +29,7 @@ function PostData() {
   }
 
   return (
-    <div className="container">
-      <label>Add New User</label>
+    <div>
       <form onSubmit={(e) => submit(e)}>
         <input
           onChange={(e) => handlerSubmit(e)}

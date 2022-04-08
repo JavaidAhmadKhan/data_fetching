@@ -32,7 +32,7 @@ function PostData() {
     <div className="container">
       <label>Add New User</label>
       <form onSubmit={(e) => submit(e)}>
-        <input
+        <input 
           onChange={(e) => handlerSubmit(e)}
           id="name"
           value={data.name}

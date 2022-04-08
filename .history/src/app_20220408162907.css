@@ -3,17 +3,18 @@
 }
 
 .container {
-  display: flex;
-
+  display:flex;
   flex-direction: column;
   text-align: center;
-  font-size: 20px;
+  font-size:20px;
 }
 
 table,
 th,
 td {
   border: 1px solid black;
-  padding: 5px;
-  background-color: lightgray;
+}
+
+td {
+  background-color: aqua;
 }

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import PostData from "./Components/PostData";
 
 import "./app.css";
@@ -7,9 +7,10 @@ export default function App() {
   const [users, setUsers] = useState([]);
   const userData = async () => {
     const response = await fetch(
-      "https://dummy.restapiexample.com/api/v1/employees"
+      "http://dummy.restapiexample.com/api/v1/employees"
     );
-    const json = await response.json();
+    const json = await response.json()
+    .catch((err) => console.log(err));
     setUsers(json.data);
   };
   useEffect(() => {

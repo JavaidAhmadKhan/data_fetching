@@ -4,7 +4,7 @@ import Axios from "axios";
 import "./post-data.css";
 
 function PostData() {
-  const url = "https://dummy.restapiexample.com/api/v1/create";
+  const url = "http://dummy.restapiexample.com/api/v1/employees/:splat 200";
   const [data, setData] = useState({
     name: "",
     salary: "",
